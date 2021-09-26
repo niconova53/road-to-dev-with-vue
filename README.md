@@ -1,4 +1,4 @@
-# testing-vue
+# Road-to-dev-with-vue
 
 ## Project setup
 ```
