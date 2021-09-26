@@ -1,16 +1,19 @@
 <template>
 	<div>
-		<hello-world msg="Hola VUE!" />
-		<button class="btn btn-primary">Hola como va</button>
+		<home />
+		<Header />
+		<Footer />
 	</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import Header from './components/Header.vue';
+import Home from './views/Home.vue';
+import Footer from './components/Footer.vue';
 
 export default {
+	components: { Home, Header, Footer },
 	name: 'App',
-	components: { HelloWorld },
 };
 </script>
 
