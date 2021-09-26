@@ -1,0 +1,6 @@
+$tertiary: #3fb247;
+
+// Generate classes like bg-tertiary, btn-tertiary, etc...
+$theme-colors:map-merge($theme-colors, (
+  "tertiary": $tertiary
+));
