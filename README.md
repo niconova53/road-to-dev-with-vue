@@ -19,6 +19,32 @@ npm run build
 ```
 npm run lint
 ```
+### Configurar VScode F1 settings.json
+#### Debemos poner por defecto formatear con ESLINT
+```
+ "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+```
+#### Al final nos quedaria mas o menos asi
+```
+{
+    "workbench.colorTheme": "Palenight Theme",
+    "workbench.iconTheme": "material-icon-theme",
+    "security.workspace.trust.untrustedFiles": "open",
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    }
+}
+```
 
 ### Errores en la instalación
 #### PowerShell Execution policy
