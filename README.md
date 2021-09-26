@@ -21,7 +21,10 @@ npm run lint
 ```
 
 ### Errores en la instalación
-#### Algo
+#### PowerShell Execution policy
 ```
-npm run lint
+Get-ExecutionPolicy -List
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+Set-ExecutionPolicy RemoteSigned -Scope LocalMachine
+Poner S para confirmar cuando lo requiera.
 ```
