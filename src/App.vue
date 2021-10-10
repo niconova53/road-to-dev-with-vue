@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import Home from '@/Views/Home.vue';
+import Home from '@/views/Home.vue';
 import Layout from '@/components/Layout.vue';
 export default {
 	name: 'App',
