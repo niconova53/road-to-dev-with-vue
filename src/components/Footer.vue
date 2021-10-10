@@ -1,5 +1,7 @@
 <template>
-	<div></div>
+	<div class="divFooter">
+		<h2><b>Footer</b></h2>
+	</div>
 </template>
 
 <script>
@@ -8,4 +10,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.divFooter {
+	display: flex;
+	justify-content: center;
+	align-content: stretch;
+	align-items: flex-end;
+}
+</style>

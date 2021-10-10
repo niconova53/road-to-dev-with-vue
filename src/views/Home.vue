@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h1>Hola</h1>
+		<h2 class="divHome"><b>Home</b></h2>
 	</div>
 </template>
 
@@ -10,4 +10,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.divHome {
+	display: flex;
+	justify-content: center;
+	align-content: stretch;
+	align-items: stretch;
+}
+</style>

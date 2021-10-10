@@ -1,5 +1,7 @@
 <template>
-	<div>asd</div>
+	<div class="divHeader">
+		<h2><b>Header</b></h2>
+	</div>
 </template>
 
 <script>
@@ -8,4 +10,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.divHeader {
+	display: flex;
+	justify-content: center;
+	align-content: stretch;
+}
+</style>
