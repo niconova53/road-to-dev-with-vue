@@ -1,16 +1,17 @@
 <template>
 	<div>
-		<hello-world msg="Hola VUE!" />
-		<button class="btn btn-primary">Hola como va</button>
+		<layout class="bg-light">
+			<home slot="home" />
+		</layout>
 	</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
-
+import Home from '@/Views/Home.vue';
+import Layout from '@/components/Layout.vue';
 export default {
 	name: 'App',
-	components: { HelloWorld },
+	components: { Home, Layout },
 };
 </script>
 
