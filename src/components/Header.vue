@@ -1,6 +1,6 @@
 <template>
-	<div class="divHeader">
-		<h2><b>Header</b></h2>
+	<div class="d-flex justify-content-center">
+		<h2 class="fw-bold">Header</h2>
 	</div>
 </template>
 
@@ -10,10 +10,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.divHeader {
-	display: flex;
-	justify-content: center;
-	align-content: stretch;
-}
-</style>
+<style lang="scss" scoped></style>

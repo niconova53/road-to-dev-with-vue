@@ -1,6 +1,6 @@
 <template>
-	<div>
-		<h2 class="divHome"><b>Home</b></h2>
+	<div class="d-flex justify-content-center">
+		<h2 class="fw-bold">Home</h2>
 	</div>
 </template>
 
@@ -11,10 +11,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.divHome {
-	display: flex;
-	justify-content: center;
-	align-content: stretch;
-	align-items: stretch;
-}
+// nada por aqui U_U
 </style>

@@ -1,6 +1,6 @@
 <template>
-	<div class="divFooter">
-		<h2><b>Footer</b></h2>
+	<div class="d-flex justify-content-center">
+		<h2 class="fw-bold">Footer</h2>
 	</div>
 </template>
 
@@ -10,11 +10,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.divFooter {
-	display: flex;
-	justify-content: center;
-	align-content: stretch;
-	align-items: flex-end;
-}
-</style>
+<style lang="scss" scoped></style>
